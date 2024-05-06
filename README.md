@@ -90,17 +90,24 @@ o	Commit And Test
 
 ![alt text](<image/available plugin on jenkins.png>)
 
+
 ![alt text](<image/copy artifact downloaded without restart.png>)
+
 
 ![alt text](<image/Jenkins config(general).png>)
 
+
 ![alt text](<image/jenkins config (source code).png>)
+
 
 ![alt text](<image/jenkins config (build trigger).png>)
 
+
 ![alt text](<image/test on gitreadme.png>)
 
+
 ![alt text](<image/Test result on console.png>)
+
 
 ![alt text](<image/save_artifact console output.png>)
 
@@ -192,7 +199,9 @@ Step 3 –
 
 ### .Launch 2 fresh EC2 instances using RHEL 8 image, we will use them as our uat servers,and  names them accordingly – Web1-UAT and Web2-UAT.
 
+
 ![alt text](<image/spring up UAT webservers.png>)
+
 
 ### ii. To create a role, you must create a directory called roles/, relative to the playbook file or in /etc/ansible/ directory. There are two ways how we can create this folder structure:
 
@@ -285,7 +294,9 @@ Step 5:
 
 ![alt text](<image/git merge ansible console.png>)
 
+
 ![alt text](<image/git merge for main & refactor branch.png>)
+
 
 ![alt text](<image/git merge ansible console.png>)
 
