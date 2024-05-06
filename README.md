@@ -90,8 +90,6 @@ o	Commit And Test
 
 ![alt text](<image/available plugin on jenkins.png>)
 
-![alt text](<image/create ansible config artifact.png>)
-
 ![alt text](<image/copy artifact downloaded without restart.png>)
 
 ![alt text](<image/Jenkins config(general).png>)
@@ -210,41 +208,6 @@ Step 3 –
 
 ### The roles directory should look like this.
 
-### before
-
-└── webserver
-    ├── README.md
-    ├── defaults
-    │   └── main.yml
-    ├── files
-    ├── handlers
-    │   └── main.yml
-    ├── meta
-    │   └── main.yml
-    ├── tasks
-    │   └── main.yml
-    ├── templates
-    ├── tests
-    │   ├── inventory
-    │   └── test.yml
-    └── vars
-        └── main.yml
-
-### after
-
-└── webserver
-    ├── README.md
-    ├── defaults
-    │   └── main.yml
-    ├── handlers
-    │   └── main.yml
-    ├── meta
-    │   └── main.yml
-    ├── tasks
-    │   └── main.yml
-    └── templates
-
-
 ![alt text](<image/new role directory.png>)
 
 ### iii Update your inventory ansible-config-mgt/inventory/uat.yml file with IP addresses of your 2   UAT Web servers
@@ -348,6 +311,18 @@ playbooks/site yml'
 ### run playbook against webserver-uat
 
 ![alt text](<image/runplay book against webserver uat.png>)
+
+### Ansible workspace look
+
+![alt text](<image/ansible workspace.png>)
+
+### console output after commit and merge
+
+![alt text](<image/ansible console output.png>)
+
+### save_artifact output after commit and merge
+
+![alt text](<image/console output of save_artifact.png>)
 
 ### Our last achitecture should look like this.
 
